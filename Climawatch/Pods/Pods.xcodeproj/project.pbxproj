@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0812E374F5814C776A4BB9D93D43E0A1 /* Pods-ClimawatchTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70952B34CFCF677F2868F22DBCB640EF /* Pods-ClimawatchTests-dummy.m */; };
+		793BC48512A2CE063A852C7E8889E3EF /* Pods-Climawatch-ClimawatchUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1A010B0E2B167B17AC2B303C866E86 /* Pods-Climawatch-ClimawatchUITests-dummy.m */; };
+		A73F0C11E357B4C15975CCD091675342 /* Pods-Climawatch-ClimawatchUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6AC89C871D68B3D463202395BD2CC5 /* Pods-Climawatch-ClimawatchUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C21D775980C2C90C69DC23283154D335 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CC5C81EAABE0A78508C61B38730DE4F9 /* Pods-Climawatch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B2D73D96C08755784DB03F68267612 /* Pods-Climawatch-dummy.m */; };
+		E8BFA545707130E28F380262C149A2C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EA43CF8B51BE42F08A8A38865050F6E7 /* Pods-ClimawatchTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFF15DDC4B7B626995FF91DC18318010 /* Pods-ClimawatchTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F23F4C47B8CF1BAE1B36C7517F56E123 /* Pods-Climawatch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A51C06F8D3475E6CF95E41B11A000D /* Pods-Climawatch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F811A6081389B6D4AA9E7160316DF102 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2AFA55315DF6C33D49B7B941425236D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68A219547839F337DD54A59D90C239CC;
+			remoteInfo = "Pods-Climawatch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F8DCCFC1B3DBDCBE0999E4A5DB4D993 /* Pods-ClimawatchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClimawatchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		128B734779A53B1FC60BFC806E381507 /* Pods-Climawatch-ClimawatchUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Climawatch-ClimawatchUITests-Info.plist"; sourceTree = "<group>"; };
+		138362E721FBC66496AA904D889E05B9 /* Pods-Climawatch-ClimawatchUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Climawatch-ClimawatchUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		205EFB961E8CA064C19A4CD0A75FE42D /* Pods-Climawatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Climawatch.release.xcconfig"; sourceTree = "<group>"; };
+		303AA77527842750570CFEBB4A5C39C7 /* Pods-Climawatch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Climawatch-acknowledgements.plist"; sourceTree = "<group>"; };
+		30A51C06F8D3475E6CF95E41B11A000D /* Pods-Climawatch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Climawatch-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34B2D73D96C08755784DB03F68267612 /* Pods-Climawatch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Climawatch-dummy.m"; sourceTree = "<group>"; };
+		3D6AC89C871D68B3D463202395BD2CC5 /* Pods-Climawatch-ClimawatchUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Climawatch-ClimawatchUITests-umbrella.h"; sourceTree = "<group>"; };
+		52DF2B443DFB63A454BF494F69626E0F /* Pods-ClimawatchTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClimawatchTests-Info.plist"; sourceTree = "<group>"; };
+		56884B0427B541C9C15E88C246B208AD /* Pods-Climawatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Climawatch.debug.xcconfig"; sourceTree = "<group>"; };
+		68986EF0F270258D3851D4A4069FE5D0 /* Pods-Climawatch-ClimawatchUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Climawatch-ClimawatchUITests.modulemap"; sourceTree = "<group>"; };
+		69DE5DF5428566E6345BF27FE9993725 /* Pods-Climawatch-ClimawatchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Climawatch-ClimawatchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		70952B34CFCF677F2868F22DBCB640EF /* Pods-ClimawatchTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClimawatchTests-dummy.m"; sourceTree = "<group>"; };
+		7FAD78618CA64CD28ABC1285B650570A /* Pods-Climawatch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Climawatch-Info.plist"; sourceTree = "<group>"; };
+		8EFE8AAACE44D999DB1928FAB059A85E /* Pods-Climawatch-ClimawatchUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Climawatch-ClimawatchUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A18910E4BF299A2DF9A5A48B18DBB50F /* Pods_Climawatch_ClimawatchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Climawatch_ClimawatchUITests.framework; path = "Pods-Climawatch-ClimawatchUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5707A0AF6F79F153D8CCC6892A27B2E /* Pods_ClimawatchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ClimawatchTests.framework; path = "Pods-ClimawatchTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A227DFF19DFB767A5B99E7C13F482C /* Pods_Climawatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Climawatch.framework; path = "Pods-Climawatch.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7927C3F360D62484BB46CA9D6015AD7 /* Pods-ClimawatchTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClimawatchTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D69D39B8BB4468DAFAFC32B27BD37FCF /* Pods-Climawatch-ClimawatchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Climawatch-ClimawatchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBB6960BCD7654CB082B6E897E537954 /* Pods-ClimawatchTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ClimawatchTests.modulemap"; sourceTree = "<group>"; };
+		DFF15DDC4B7B626995FF91DC18318010 /* Pods-ClimawatchTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClimawatchTests-umbrella.h"; sourceTree = "<group>"; };
+		E1D7BF2F9AD9D66990E6AF8B3C2B0855 /* Pods-ClimawatchTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClimawatchTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F9C4383D4C5F8627BE9067389AA9A3C6 /* Pods-Climawatch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Climawatch.modulemap"; sourceTree = "<group>"; };
+		FAD8EDDFD73041C81B288F5DB4AAA20D /* Pods-ClimawatchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClimawatchTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC1A010B0E2B167B17AC2B303C866E86 /* Pods-Climawatch-ClimawatchUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Climawatch-ClimawatchUITests-dummy.m"; sourceTree = "<group>"; };
+		FFE7BB2055D860EFE84B1FE9D303B759 /* Pods-Climawatch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Climawatch-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EF5CF5D2D51106FAACEEC9640413747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BFA545707130E28F380262C149A2C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B73C7C8B4C5EC8219594D27DEEE91C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21D775980C2C90C69DC23283154D335 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63A034746AB0AD418DEE1D8AECAA8C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F811A6081389B6D4AA9E7160316DF102 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183DE565AE6D5B14DE0713DFB05D0B35 /* Pods-Climawatch-ClimawatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68986EF0F270258D3851D4A4069FE5D0 /* Pods-Climawatch-ClimawatchUITests.modulemap */,
+				8EFE8AAACE44D999DB1928FAB059A85E /* Pods-Climawatch-ClimawatchUITests-acknowledgements.markdown */,
+				138362E721FBC66496AA904D889E05B9 /* Pods-Climawatch-ClimawatchUITests-acknowledgements.plist */,
+				FC1A010B0E2B167B17AC2B303C866E86 /* Pods-Climawatch-ClimawatchUITests-dummy.m */,
+				128B734779A53B1FC60BFC806E381507 /* Pods-Climawatch-ClimawatchUITests-Info.plist */,
+				3D6AC89C871D68B3D463202395BD2CC5 /* Pods-Climawatch-ClimawatchUITests-umbrella.h */,
+				D69D39B8BB4468DAFAFC32B27BD37FCF /* Pods-Climawatch-ClimawatchUITests.debug.xcconfig */,
+				69DE5DF5428566E6345BF27FE9993725 /* Pods-Climawatch-ClimawatchUITests.release.xcconfig */,
+			);
+			name = "Pods-Climawatch-ClimawatchUITests";
+			path = "Target Support Files/Pods-Climawatch-ClimawatchUITests";
+			sourceTree = "<group>";
+		};
+		2782E9BA242F1C5BCA199647893A4350 /* Pods-ClimawatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBB6960BCD7654CB082B6E897E537954 /* Pods-ClimawatchTests.modulemap */,
+				C7927C3F360D62484BB46CA9D6015AD7 /* Pods-ClimawatchTests-acknowledgements.markdown */,
+				E1D7BF2F9AD9D66990E6AF8B3C2B0855 /* Pods-ClimawatchTests-acknowledgements.plist */,
+				70952B34CFCF677F2868F22DBCB640EF /* Pods-ClimawatchTests-dummy.m */,
+				52DF2B443DFB63A454BF494F69626E0F /* Pods-ClimawatchTests-Info.plist */,
+				DFF15DDC4B7B626995FF91DC18318010 /* Pods-ClimawatchTests-umbrella.h */,
+				0F8DCCFC1B3DBDCBE0999E4A5DB4D993 /* Pods-ClimawatchTests.debug.xcconfig */,
+				FAD8EDDFD73041C81B288F5DB4AAA20D /* Pods-ClimawatchTests.release.xcconfig */,
+			);
+			name = "Pods-ClimawatchTests";
+			path = "Target Support Files/Pods-ClimawatchTests";
+			sourceTree = "<group>";
+		};
+		83A0FA1BF081FA8437BB5C4285102C0E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0BEFDAADBB677E03EACD3690F75B756 /* Pods-Climawatch */,
+				183DE565AE6D5B14DE0713DFB05D0B35 /* Pods-Climawatch-ClimawatchUITests */,
+				2782E9BA242F1C5BCA199647893A4350 /* Pods-ClimawatchTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B0BEFDAADBB677E03EACD3690F75B756 /* Pods-Climawatch */ = {
+			isa = PBXGroup;
+			children = (
+				F9C4383D4C5F8627BE9067389AA9A3C6 /* Pods-Climawatch.modulemap */,
+				FFE7BB2055D860EFE84B1FE9D303B759 /* Pods-Climawatch-acknowledgements.markdown */,
+				303AA77527842750570CFEBB4A5C39C7 /* Pods-Climawatch-acknowledgements.plist */,
+				34B2D73D96C08755784DB03F68267612 /* Pods-Climawatch-dummy.m */,
+				7FAD78618CA64CD28ABC1285B650570A /* Pods-Climawatch-Info.plist */,
+				30A51C06F8D3475E6CF95E41B11A000D /* Pods-Climawatch-umbrella.h */,
+				56884B0427B541C9C15E88C246B208AD /* Pods-Climawatch.debug.xcconfig */,
+				205EFB961E8CA064C19A4CD0A75FE42D /* Pods-Climawatch.release.xcconfig */,
+			);
+			name = "Pods-Climawatch";
+			path = "Target Support Files/Pods-Climawatch";
+			sourceTree = "<group>";
+		};
+		BE13C877FE818BDD0C9AB1F5C44607E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0A227DFF19DFB767A5B99E7C13F482C /* Pods_Climawatch.framework */,
+				A18910E4BF299A2DF9A5A48B18DBB50F /* Pods_Climawatch_ClimawatchUITests.framework */,
+				A5707A0AF6F79F153D8CCC6892A27B2E /* Pods_ClimawatchTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BE13C877FE818BDD0C9AB1F5C44607E3 /* Products */,
+				83A0FA1BF081FA8437BB5C4285102C0E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		005C93DDBABB09AE595C21E615935033 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA43CF8B51BE42F08A8A38865050F6E7 /* Pods-ClimawatchTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41FA0E85A4C87B51C5F3E8374C347C00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73F0C11E357B4C15975CCD091675342 /* Pods-Climawatch-ClimawatchUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A349338B0548C5825FA7C020CDC618FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23F4C47B8CF1BAE1B36C7517F56E123 /* Pods-Climawatch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		68A219547839F337DD54A59D90C239CC /* Pods-Climawatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C09688F507CC71E4C1D11863FA7DFDC7 /* Build configuration list for PBXNativeTarget "Pods-Climawatch" */;
+			buildPhases = (
+				A349338B0548C5825FA7C020CDC618FA /* Headers */,
+				5432D6008378B0D990A0F71CD3AF64C7 /* Sources */,
+				51B73C7C8B4C5EC8219594D27DEEE91C /* Frameworks */,
+				892AED6F139F8EC1BB184C3CFC604FC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Climawatch";
+			productName = "Pods-Climawatch";
+			productReference = B0A227DFF19DFB767A5B99E7C13F482C /* Pods_Climawatch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D74420838A51FE9726084D5454136EB2 /* Pods-ClimawatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AAA44FE481DE6F2B456A35D181C4737 /* Build configuration list for PBXNativeTarget "Pods-ClimawatchTests" */;
+			buildPhases = (
+				005C93DDBABB09AE595C21E615935033 /* Headers */,
+				4540700FC2EF4553D203FE2116E318D4 /* Sources */,
+				B63A034746AB0AD418DEE1D8AECAA8C3 /* Frameworks */,
+				C66C367B7CB70B57E5364D98B688274B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4028E783A358530B47DC4BB668C563C9 /* PBXTargetDependency */,
+			);
+			name = "Pods-ClimawatchTests";
+			productName = "Pods-ClimawatchTests";
+			productReference = A5707A0AF6F79F153D8CCC6892A27B2E /* Pods_ClimawatchTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E83A9EC635F8502BA87E9A7B20C735F5 /* Pods-Climawatch-ClimawatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6194431A06B948E42F389EFE682EC72 /* Build configuration list for PBXNativeTarget "Pods-Climawatch-ClimawatchUITests" */;
+			buildPhases = (
+				41FA0E85A4C87B51C5F3E8374C347C00 /* Headers */,
+				E44995DB12569D1B25D5AB9E34AF7066 /* Sources */,
+				2EF5CF5D2D51106FAACEEC9640413747 /* Frameworks */,
+				FB018E6B3125FEDE968B48C5ADC1F5D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Climawatch-ClimawatchUITests";
+			productName = "Pods-Climawatch-ClimawatchUITests";
+			productReference = A18910E4BF299A2DF9A5A48B18DBB50F /* Pods_Climawatch_ClimawatchUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BE13C877FE818BDD0C9AB1F5C44607E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68A219547839F337DD54A59D90C239CC /* Pods-Climawatch */,
+				E83A9EC635F8502BA87E9A7B20C735F5 /* Pods-Climawatch-ClimawatchUITests */,
+				D74420838A51FE9726084D5454136EB2 /* Pods-ClimawatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		892AED6F139F8EC1BB184C3CFC604FC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C66C367B7CB70B57E5364D98B688274B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB018E6B3125FEDE968B48C5ADC1F5D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4540700FC2EF4553D203FE2116E318D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0812E374F5814C776A4BB9D93D43E0A1 /* Pods-ClimawatchTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5432D6008378B0D990A0F71CD3AF64C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5C81EAABE0A78508C61B38730DE4F9 /* Pods-Climawatch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44995DB12569D1B25D5AB9E34AF7066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793BC48512A2CE063A852C7E8889E3EF /* Pods-Climawatch-ClimawatchUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4028E783A358530B47DC4BB668C563C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Climawatch";
+			target = 68A219547839F337DD54A59D90C239CC /* Pods-Climawatch */;
+			targetProxy = D2AFA55315DF6C33D49B7B941425236D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C9AC883ED81A1A73FEE336CCB0994DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D69D39B8BB4468DAFAFC32B27BD37FCF /* Pods-Climawatch-ClimawatchUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Climawatch-ClimawatchUITests/Pods-Climawatch-ClimawatchUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Climawatch-ClimawatchUITests/Pods-Climawatch-ClimawatchUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1DC81D9FA82CB8EBD130E20CB9587714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56884B0427B541C9C15E88C246B208AD /* Pods-Climawatch.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Climawatch/Pods-Climawatch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Climawatch/Pods-Climawatch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B1697542F2A4937A140EA25F61BE8E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69DE5DF5428566E6345BF27FE9993725 /* Pods-Climawatch-ClimawatchUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Climawatch-ClimawatchUITests/Pods-Climawatch-ClimawatchUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Climawatch-ClimawatchUITests/Pods-Climawatch-ClimawatchUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3DE4FCF10DD5DB73064EA5E0DA728290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F8DCCFC1B3DBDCBE0999E4A5DB4D993 /* Pods-ClimawatchTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ClimawatchTests/Pods-ClimawatchTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClimawatchTests/Pods-ClimawatchTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E22BBC63CFC77EFB85AD1B13CC2F781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAD8EDDFD73041C81B288F5DB4AAA20D /* Pods-ClimawatchTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ClimawatchTests/Pods-ClimawatchTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClimawatchTests/Pods-ClimawatchTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A104E7D607F0D5FB4732DC3CB235422A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205EFB961E8CA064C19A4CD0A75FE42D /* Pods-Climawatch.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Climawatch/Pods-Climawatch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Climawatch/Pods-Climawatch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AAA44FE481DE6F2B456A35D181C4737 /* Build configuration list for PBXNativeTarget "Pods-ClimawatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DE4FCF10DD5DB73064EA5E0DA728290 /* Debug */,
+				5E22BBC63CFC77EFB85AD1B13CC2F781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C09688F507CC71E4C1D11863FA7DFDC7 /* Build configuration list for PBXNativeTarget "Pods-Climawatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC81D9FA82CB8EBD130E20CB9587714 /* Debug */,
+				A104E7D607F0D5FB4732DC3CB235422A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6194431A06B948E42F389EFE682EC72 /* Build configuration list for PBXNativeTarget "Pods-Climawatch-ClimawatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C9AC883ED81A1A73FEE336CCB0994DC /* Debug */,
+				2B1697542F2A4937A140EA25F61BE8E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

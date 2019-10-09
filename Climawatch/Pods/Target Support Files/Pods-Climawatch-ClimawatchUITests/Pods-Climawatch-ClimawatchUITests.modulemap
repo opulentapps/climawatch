@@ -1,0 +1,6 @@
+framework module Pods_Climawatch_ClimawatchUITests {
+  umbrella header "Pods-Climawatch-ClimawatchUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
