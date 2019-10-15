@@ -16,16 +16,21 @@ class MainViewController: UIViewController {
     @IBOutlet weak var cityLabel: UILabel!
     @IBOutlet weak var searchTextField: UITextField!
     
+    var fetchedEvents = [Event]()
+    
     var weatherDataManager = WeatherData()
+    var eventDataMangager = EventManager()
     let locationManager = CLLocationManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         searchTextField.delegate = self
         weatherDataManager.delegate = self
+        eventDataMangager.delegate = self
         locationManager.delegate = self
         locationManager.requestWhenInUseAuthorization()
         locationManager.requestLocation()
+        eventDataMangager.fetchEvent(cityName: "")
     }
     @IBAction func updateLocationTapped(_ sender: Any) {
         locationManager.requestLocation()
@@ -78,6 +83,25 @@ extension MainViewController: WeatherDataDelegate {
     }
     
     func didFailWithError(error: Error) {
+        print(error)
+    }
+    
+}
+
+//MARK: - EventManagerDelegate
+
+extension MainViewController: EventManagerDelegate {
+    func didUpdateEvent(_ eventData: EventManager, model: [Event]) {
+        
+        DispatchQueue.main.async {
+            
+            self.fetchedEvents = model
+            print(self.fetchedEvents)
+            
+        }
+    }
+    
+    func eventFailedWithError(error: Error) {
         print(error)
     }
     
