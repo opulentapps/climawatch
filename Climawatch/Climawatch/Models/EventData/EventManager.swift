@@ -14,9 +14,9 @@ protocol EventManagerDelegate {
     func eventFailedWithError(error: Error)
 }
 
-class EventManager {
+class EventManager: ObservableObject {
     
-    var events = [Event]()
+    @Published var events = [Event]()
     
     let eventDataURL = "https://api.predicthq.com/v1/events?within=10km@37.785834,-122.406417"
     
