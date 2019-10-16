@@ -10,42 +10,24 @@ import UIKit
 import CoreLocation
 
 
-//struct EventData {
-//    var title: String
-//    var url: String
-//    var backgroundImage: UIImage
-//}
-
-
-
 class MainViewController: UIViewController {
-    
-    
-//    fileprivate let data = [
-//        CustomData(title: "The Islands!", url: "maxcodes.io/enroll", backgroundImage: #imageLiteral(resourceName: "background")),
-//        CustomData(title: "Subscribe to maxcodes boiiii!", url: "maxcodes.io/courses", backgroundImage: #imageLiteral(resourceName: "background")),
-//        CustomData(title: "StoreKit Course!", url: "maxcodes.io/courses", backgroundImage: #imageLiteral(resourceName: "background")),
-//        CustomData(title: "Collection Views!", url: "maxcodes.io/courses", backgroundImage: #imageLiteral(resourceName: "blue_bg3")),
-//        CustomData(title: "MapKit!", url: "maxcodes.io/courses", backgroundImage: #imageLiteral(resourceName: "background")),
-//    ]
-    
-    
     
     @IBOutlet weak var conditionImageView: UIImageView!
     @IBOutlet weak var temperatureLabel: UILabel!
     @IBOutlet weak var cityLabel: UILabel!
     @IBOutlet weak var searchTextField: UITextField!
     
-    fileprivate var fetchedEvents = [Event]()
-    
     var weatherDataManager = WeatherData()
     var eventDataMangager = EventManager()
     let locationManager = CLLocationManager()
     
+    fileprivate var fetchedEvents = [Event]()
     
     fileprivate let collectionView:UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
+        layout.sectionInset = UIEdgeInsets(top: 0, left: 15, bottom: 0, right: 0)
+        layout.minimumLineSpacing = 15
         let cv = UICollectionView(frame: .zero, collectionViewLayout: layout)
         cv.translatesAutoresizingMaskIntoConstraints = false
         cv.register(CustomCell.self, forCellWithReuseIdentifier: "cell")
@@ -56,31 +38,28 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        
         searchTextField.delegate = self
         weatherDataManager.delegate = self
         eventDataMangager.delegate = self
         locationManager.delegate = self
         collectionView.delegate = self
-                      collectionView.dataSource = self
+        collectionView.dataSource = self
         locationManager.requestWhenInUseAuthorization()
         locationManager.requestLocation()
-        eventDataMangager.fetchEvent(cityName: "")
-        
         view.addSubview(collectionView)
         collectionView.backgroundColor = .clear
-       
+        
         collectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -40).isActive = true
         collectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0).isActive = true
         collectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0).isActive = true
-        collectionView.heightAnchor.constraint(equalToConstant: view.frame.width/1.5).isActive = true
+        collectionView.heightAnchor.constraint(equalToConstant: view.frame.width/1.2).isActive = true
     }
+    
     @IBAction func updateLocationTapped(_ sender: Any) {
         locationManager.requestLocation()
     }
 }
-
-
 
 
 
@@ -141,14 +120,8 @@ extension MainViewController: EventManagerDelegate {
     func didUpdateEvent(_ eventData: EventManager, model: [Event]) {
         
         DispatchQueue.main.async {
-            
             self.fetchedEvents = model
-            
             self.collectionView.reloadData()
-//            self.cityLabel.text = self.fetchedEvents[1].title
-//            print(self.fetchedEvents.count)
-            
-            
         }
     }
     
@@ -168,32 +141,31 @@ extension MainViewController: CLLocationManagerDelegate {
             let lon = location.coordinate.longitude
             let lat = location.coordinate.latitude
             weatherDataManager.fetchWeather(longitude: lon, latitude: lat)
+            eventDataMangager.fetchEvent(longitude: lon, latitude: lat)
+
         }
-        
     }
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         print(error)
     }
-    
-    
 }
 
 //MARK: - CollectionViewDelegate & DataSource
 
 extension MainViewController: UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: collectionView.frame.width/2.5, height: collectionView.frame.width/2)
+        
+        return CGSize(width: collectionView.frame.width/2.0, height: collectionView.frame.width/1.3)
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-       print(self.fetchedEvents.count)
+        print(self.fetchedEvents.count)
         return self.fetchedEvents.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CustomCell
         
-//        cell.backgroundColor = .red
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CustomCell
         cell.data = self.fetchedEvents[indexPath.item]
         return cell
     }
@@ -201,22 +173,55 @@ extension MainViewController: UICollectionViewDelegateFlowLayout, UICollectionVi
 
 class CustomCell: UICollectionViewCell {
     
-        var data: Event? {
-            didSet {
-                guard let data = data else { return }
-//                bg.image = data.backgroundImage
-                title.text = data.title
-                print(data.title)
-
+    var data: Event? {
+        didSet {
+            guard let data = data else { return }
+            title.text = data.title
+            cat.text = data.category
+            
+            switch data.category {
+            case "public-holidays":
+                return bg.image = #imageLiteral(resourceName: "holiday_card")
+            case "politics":
+                return bg.image = #imageLiteral(resourceName: "politics_card")
+            case "concerts":
+                return bg.image = #imageLiteral(resourceName: "concert_card")
+            case "sports":
+                return bg.image = #imageLiteral(resourceName: "sports_card")
+            case "observances":
+                return bg.image = #imageLiteral(resourceName: "religion_card")
+            case "school-holidays":
+                return bg.image = #imageLiteral(resourceName: "school_card")
+            default:
+                return bg.image = #imageLiteral(resourceName: "holiday_card")
             }
+            
+            
         }
+    }
     
     
     fileprivate let title: UILabel = {
         let iv = UILabel()
         iv.translatesAutoresizingMaskIntoConstraints = false
         iv.clipsToBounds = true
+        iv.lineBreakMode = .byWordWrapping
+        iv.numberOfLines = 2
         iv.textColor = .black
+        iv.font = UIFont(name: "Helvetica", size: 16)
+        iv.textColor = UIColor(rgb: 0x353B50)
+        return iv
+    }()
+    
+    fileprivate let cat: UILabel = {
+        let iv = UILabel()
+        iv.translatesAutoresizingMaskIntoConstraints = false
+        iv.clipsToBounds = true
+        iv.lineBreakMode = .byWordWrapping
+        iv.numberOfLines = 2
+        iv.textColor = .black
+        iv.font = UIFont(name: "Helvetica", size: 14)
+        iv.textColor = UIColor(rgb: 0x353B50)
         return iv
     }()
     
@@ -236,16 +241,43 @@ class CustomCell: UICollectionViewCell {
         
         contentView.addSubview(bg)
         contentView.addSubview(title)
+        contentView.addSubview(cat)
         
         bg.topAnchor.constraint(equalTo: contentView.topAnchor).isActive = true
         bg.leftAnchor.constraint(equalTo: contentView.leftAnchor).isActive = true
         bg.rightAnchor.constraint(equalTo: contentView.rightAnchor).isActive = true
         bg.bottomAnchor.constraint(equalTo: contentView.bottomAnchor).isActive = true
         
+        title.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -15).isActive = true
+        title.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 10).isActive = true
+        title.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: 0).isActive = true
+        
+        cat.bottomAnchor.constraint(equalTo: title.topAnchor, constant: -5).isActive = true
+        cat.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 10).isActive = true
+        cat.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: 0).isActive = true
+        
     }
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+}
+
+extension UIColor {
+    convenience init(red: Int, green: Int, blue: Int) {
+        assert(red >= 0 && red <= 255, "Invalid red component")
+        assert(green >= 0 && green <= 255, "Invalid green component")
+        assert(blue >= 0 && blue <= 255, "Invalid blue component")
+        
+        self.init(red: CGFloat(red) / 255.0, green: CGFloat(green) / 255.0, blue: CGFloat(blue) / 255.0, alpha: 1.0)
+    }
+    
+    convenience init(rgb: Int) {
+        self.init(
+            red: (rgb >> 16) & 0xFF,
+            green: (rgb >> 8) & 0xFF,
+            blue: rgb & 0xFF
+        )
     }
 }
 

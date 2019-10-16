@@ -18,12 +18,15 @@ class EventManager: ObservableObject {
     
     @Published var events = [Event]()
     
-    let eventDataURL = "https://api.predicthq.com/v1/events?within=10km@37.785834,-122.406417"
+    let eventDataURL = "https://api.predicthq.com/v1/events"
     
     var delegate: EventManagerDelegate?
     
-    func fetchEvent(cityName: String) {
-        let dataURL = "\(eventDataURL)"
+    
+    
+    
+    func fetchEvent(longitude: Double, latitude: Double) {
+        let dataURL = "\(eventDataURL)?within=10km@\(latitude),\(longitude)"
         fetchData(dataUrl: dataURL)
         print(dataURL)
     }
