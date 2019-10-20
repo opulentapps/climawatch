@@ -7,18 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0812E374F5814C776A4BB9D93D43E0A1 /* Pods-ClimawatchTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70952B34CFCF677F2868F22DBCB640EF /* Pods-ClimawatchTests-dummy.m */; };
-		793BC48512A2CE063A852C7E8889E3EF /* Pods-Climawatch-ClimawatchUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1A010B0E2B167B17AC2B303C866E86 /* Pods-Climawatch-ClimawatchUITests-dummy.m */; };
-		A73F0C11E357B4C15975CCD091675342 /* Pods-Climawatch-ClimawatchUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6AC89C871D68B3D463202395BD2CC5 /* Pods-Climawatch-ClimawatchUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C21D775980C2C90C69DC23283154D335 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		CC5C81EAABE0A78508C61B38730DE4F9 /* Pods-Climawatch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B2D73D96C08755784DB03F68267612 /* Pods-Climawatch-dummy.m */; };
-		E8BFA545707130E28F380262C149A2C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		EA43CF8B51BE42F08A8A38865050F6E7 /* Pods-ClimawatchTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFF15DDC4B7B626995FF91DC18318010 /* Pods-ClimawatchTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F23F4C47B8CF1BAE1B36C7517F56E123 /* Pods-Climawatch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A51C06F8D3475E6CF95E41B11A000D /* Pods-Climawatch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F811A6081389B6D4AA9E7160316DF102 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		00640013C91346449891CEAAC4F5C689 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C30D41A419A0F02223E00515A18C75 /* NVActivityIndicatorAnimationBallTrianglePath.swift */; };
+		00C250907C31BD7CD6F6FBCF6C160979 /* NVActivityIndicatorAnimationPacman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738643944491D05D74EC81715E4889B2 /* NVActivityIndicatorAnimationPacman.swift */; };
+		063E0A231A62F5D1B7AEFA52F61CBE8C /* NVActivityIndicatorViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC04A6E6B7DCC02331DD330B704C646 /* NVActivityIndicatorViewable.swift */; };
+		0812E374F5814C776A4BB9D93D43E0A1 /* Pods-ClimawatchTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8279CF9E4B7FCB60B1D4E5293F214925 /* Pods-ClimawatchTests-dummy.m */; };
+		088D1B4FFBF195E2C5F971CE6E01F306 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B05583F18303F79CD93267ADC23673 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */; };
+		18D3B316ACCF21376DE24F8E443355FF /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42EF85D8DE247009BC4BC26984D752D /* NVActivityIndicatorAnimationBallPulseSync.swift */; };
+		23CFCA220D10319B40A4A7AFB16205E7 /* NVActivityIndicatorAnimationBallScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91994FDF901EFC4160B5A287840ABE63 /* NVActivityIndicatorAnimationBallScale.swift */; };
+		32450B425D3136FFF3CBF328E41E2D86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		34798F1AF2593E71F37D22B860D1AA6B /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B85E3FCA67F213BB62CCA25A8BD935D /* NVActivityIndicatorAnimationLineScaleParty.swift */; };
+		38BB4CA7DC4C632D8A40A1A62CD4F88A /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C115FF2FC1AF81AF8F49933BDD4FEBB4 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */; };
+		392ACF0CEF36FDAF6D3DE6EC20A48E90 /* Pods-Climawatch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5F084CE0F5A37C0A655B4037D1BD16 /* Pods-Climawatch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49CD0AF62D26E8B691207DA6E47E6249 /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34EB2E72610D798F73F263AB734B9D6 /* NVActivityIndicatorAnimationBallClipRotate.swift */; };
+		4FEF425AA81B02F1CF80C80AA103AF7B /* NVActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E412F5F85B544765B110CCACED70211 /* NVActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54C5CC95513F4B361BA0F784818DD6E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */; };
+		55602BE8A67E44301481597D8DE5B677 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD85CF7FBA511E5B061A58CBE43C9F8 /* NVActivityIndicatorAnimationBallRotate.swift */; };
+		5E83A81465CB917AD6338D7AF1853F3E /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = D122D6445A13F1E83BCA2D40C88836C6 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */; };
+		6033B51021E10F40310F40645A99EC65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */; };
+		69BF4B71FF5D9974FEA12A55FEFCFF8F /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7672FA29688D3410B34A44C8AED2F08 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */; };
+		739AA69BF3B6A9747201587D067DC14C /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51242E61270A4247F8B09186EF8501B1 /* NVActivityIndicatorAnimationAudioEqualizer.swift */; };
+		73F366235A97A2AF6CD0ABD36B8C3918 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED4B3B94195D05A342A7ED0A0B9C2B /* NVActivityIndicatorAnimationBallGridPulse.swift */; };
+		797FC27F92CB14544D03CF0E00BE0822 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C9D843423E724D08EFD128971F4060 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */; };
+		7CAA65050EAE8A3D320E0B33DD17305B /* NVActivityIndicatorAnimationLineScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8757F5EE0BED5E58304C2C3B3AA0B2 /* NVActivityIndicatorAnimationLineScale.swift */; };
+		81DAF62D21712670F61159BC27951341 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E5F8FAE3A88BDE86C412753EE2B135 /* NVActivityIndicatorAnimationBallBeat.swift */; };
+		85EE677C8757712A703AFD3824FB0153 /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611FA569055B6B52A186F31930019F3 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */; };
+		8D4AF8BBBFB3C99A8A0EC4D8E7C3AA2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		9209EF6A87C503DF3C409E91924DACDD /* NVActivityIndicatorAnimationBallPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC5576B98E686611C43AE15466616E /* NVActivityIndicatorAnimationBallPulse.swift */; };
+		9949F4C822F89A3BA5AA75C0C0165E32 /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8970A58F2FCE10635ABD36E9B54D6203 /* NVActivityIndicatorAnimationBallRotateChase.swift */; };
+		9FC1C863E4F4279B2F875C1F863E04A3 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732CCBC31EB4AE02F25809F315024A19 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */; };
+		A3FEC5AAEF5841875C90EAA04A824277 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		A54422D64A06F3B8C07FF01FE18D256F /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975C07FFA68D8377D3D1983A2BD6757 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */; };
+		B55E5F7C3559316ABBAD12774DD9E7F3 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950FFAC6F0365DB5E037D457C8846ADF /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */; };
+		B64D07267C9F00F9B9A4E67392000CA4 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6252F717B760E5D8248636F1CB88E5 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */; };
+		BA40588701247416D36537D1EC065931 /* NVActivityIndicatorAnimationBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = B169C24D5E5CE360095B2ACCDEFFD522 /* NVActivityIndicatorAnimationBlank.swift */; };
+		BA5D029B0EB9D152BB0A11ECC9732DD5 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5707F376A338FB34D9B09125453749D /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */; };
+		BF4107A462C6AA1C2D361B17B67C3BC3 /* NVActivityIndicatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5032174CE9C489F33EF397286231E2E6 /* NVActivityIndicatorPresenter.swift */; };
+		BF9E30025CF0D786A102F577C3DDD387 /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267303696144220AC53741C7D950837F /* NVActivityIndicatorAnimationBallGridBeat.swift */; };
+		C06909BBDAAD9A6C31D3FB2FD3BAD93E /* NVActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FE59122E613089D5698B5CFCD3CFDA /* NVActivityIndicatorView.swift */; };
+		CA40DB89394085FBBBE4B0D5A40DA340 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4048CC534944B02FEBE0DB3608983F0 /* NVActivityIndicatorAnimationBallScaleRipple.swift */; };
+		CAD3EA6AB72EAB20BC8B526A9037FBD3 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257C4AD5B026A18291A3DA9FA4CD1D62 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */; };
+		CE4CC2301A717EDFE1881D6C958BF791 /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D765BF310C263CA012D009282AE6352 /* NVActivityIndicatorAnimationBallPulseRise.swift */; };
+		D20BFF67D53752151A427545F6500DD5 /* Pods-Climawatch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FB0E1E222913011124586E1F9B6533 /* Pods-Climawatch-dummy.m */; };
+		D4C95F66768F8D154894BD46E9CD8956 /* Pods-Climawatch-ClimawatchUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4605278AE8E2228BA39D9DC1FEC285B7 /* Pods-Climawatch-ClimawatchUITests-dummy.m */; };
+		DBC908168E6099E6842155A7E5F1E328 /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E388A6BF69F16B12BE607348029C47FB /* NVActivityIndicatorAnimationCubeTransition.swift */; };
+		E058420E139C45F11C6220810F9F89BC /* NVActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F46CF2BC1CA375F6D85FE61C0E75E0 /* NVActivityIndicatorView-dummy.m */; };
+		E1D169DD2A73355BB87CFC7EBC69716E /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13ED2C1B32515725A6421EFEB39FFA /* NVActivityIndicatorAnimationSquareSpin.swift */; };
+		E235043951A82BF949762434A2B280E7 /* NVActivityIndicatorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BFB7F37FC16D215F2281C41A0C580B /* NVActivityIndicatorShape.swift */; };
+		E958B4A049EE0B62FBD2B0B6F001A660 /* NVActivityIndicatorAnimationOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DEC53E380D4E3C95BAF432C2249C3A /* NVActivityIndicatorAnimationOrbit.swift */; };
+		EA43CF8B51BE42F08A8A38865050F6E7 /* Pods-ClimawatchTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8A68F95EC416ED49CF36F921B47C5B /* Pods-ClimawatchTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED837F96403A20322FAED9C51542F666 /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866A888298A312517C734790F1B3D448 /* NVActivityIndicatorAnimationBallZigZag.swift */; };
+		F41D0CB8526FB78F1B5A1BA753B9E97D /* Pods-Climawatch-ClimawatchUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB68FB12C85B3E9C87F3CB0FB7EA93D /* Pods-Climawatch-ClimawatchUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4AB070792FBEFFBFAA96D2EA18BD3E1 /* NVActivityIndicatorAnimationBallDoubleBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FCAA0719F590A217D2B8DB31AB9830 /* NVActivityIndicatorAnimationBallDoubleBounce.swift */; };
+		F811A6081389B6D4AA9E7160316DF102 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		FC424F3BE1C5E3258FE456F6D35391D1 /* NVActivityIndicatorAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DB6EB0AFE8FDFB1FD00F5BDB0662B3 /* NVActivityIndicatorAnimationDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0EB525FC9E538E8CA586BF63160EFE2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF8A82876C43F4DFD625D1823E680EAC;
+			remoteInfo = NVActivityIndicatorView;
+		};
+		63CD86D02DD79028E5BF9CC13B224743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF8A82876C43F4DFD625D1823E680EAC;
+			remoteInfo = NVActivityIndicatorView;
+		};
 		D2AFA55315DF6C33D49B7B941425236D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -29,51 +87,93 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F8DCCFC1B3DBDCBE0999E4A5DB4D993 /* Pods-ClimawatchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClimawatchTests.debug.xcconfig"; sourceTree = "<group>"; };
-		128B734779A53B1FC60BFC806E381507 /* Pods-Climawatch-ClimawatchUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Climawatch-ClimawatchUITests-Info.plist"; sourceTree = "<group>"; };
-		138362E721FBC66496AA904D889E05B9 /* Pods-Climawatch-ClimawatchUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Climawatch-ClimawatchUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		205EFB961E8CA064C19A4CD0A75FE42D /* Pods-Climawatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Climawatch.release.xcconfig"; sourceTree = "<group>"; };
-		303AA77527842750570CFEBB4A5C39C7 /* Pods-Climawatch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Climawatch-acknowledgements.plist"; sourceTree = "<group>"; };
-		30A51C06F8D3475E6CF95E41B11A000D /* Pods-Climawatch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Climawatch-umbrella.h"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34B2D73D96C08755784DB03F68267612 /* Pods-Climawatch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Climawatch-dummy.m"; sourceTree = "<group>"; };
-		3D6AC89C871D68B3D463202395BD2CC5 /* Pods-Climawatch-ClimawatchUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Climawatch-ClimawatchUITests-umbrella.h"; sourceTree = "<group>"; };
-		52DF2B443DFB63A454BF494F69626E0F /* Pods-ClimawatchTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClimawatchTests-Info.plist"; sourceTree = "<group>"; };
-		56884B0427B541C9C15E88C246B208AD /* Pods-Climawatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Climawatch.debug.xcconfig"; sourceTree = "<group>"; };
-		68986EF0F270258D3851D4A4069FE5D0 /* Pods-Climawatch-ClimawatchUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Climawatch-ClimawatchUITests.modulemap"; sourceTree = "<group>"; };
-		69DE5DF5428566E6345BF27FE9993725 /* Pods-Climawatch-ClimawatchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Climawatch-ClimawatchUITests.release.xcconfig"; sourceTree = "<group>"; };
-		70952B34CFCF677F2868F22DBCB640EF /* Pods-ClimawatchTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClimawatchTests-dummy.m"; sourceTree = "<group>"; };
-		7FAD78618CA64CD28ABC1285B650570A /* Pods-Climawatch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Climawatch-Info.plist"; sourceTree = "<group>"; };
-		8EFE8AAACE44D999DB1928FAB059A85E /* Pods-Climawatch-ClimawatchUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Climawatch-ClimawatchUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		03DF2BFEF392B75BDFC9B05DCB5C217E /* Pods-ClimawatchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClimawatchTests.release.xcconfig"; sourceTree = "<group>"; };
+		09DB6EB0AFE8FDFB1FD00F5BDB0662B3 /* NVActivityIndicatorAnimationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationDelegate.swift; path = Source/NVActivityIndicatorView/NVActivityIndicatorAnimationDelegate.swift; sourceTree = "<group>"; };
+		0A5F084CE0F5A37C0A655B4037D1BD16 /* Pods-Climawatch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Climawatch-umbrella.h"; sourceTree = "<group>"; };
+		0ABC5576B98E686611C43AE15466616E /* NVActivityIndicatorAnimationBallPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulse.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulse.swift; sourceTree = "<group>"; };
+		0D732310F0D28797AA8A144CDE0FBDED /* Pods-Climawatch-ClimawatchUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Climawatch-ClimawatchUITests-frameworks.sh"; sourceTree = "<group>"; };
+		0FD20C62012C4866DCD6727DA518E867 /* Pods-ClimawatchTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClimawatchTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		10CC41E1B6DB9D5C506715B4DBBB9985 /* Pods-Climawatch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Climawatch-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12C30D41A419A0F02223E00515A18C75 /* NVActivityIndicatorAnimationBallTrianglePath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallTrianglePath.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallTrianglePath.swift; sourceTree = "<group>"; };
+		19ED4B3B94195D05A342A7ED0A0B9C2B /* NVActivityIndicatorAnimationBallGridPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridPulse.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallGridPulse.swift; sourceTree = "<group>"; };
+		1C01BF2B05E2A3237CA81AFDF40C0ADB /* Pods-ClimawatchTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClimawatchTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D765BF310C263CA012D009282AE6352 /* NVActivityIndicatorAnimationBallPulseRise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseRise.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulseRise.swift; sourceTree = "<group>"; };
+		1DD85CF7FBA511E5B061A58CBE43C9F8 /* NVActivityIndicatorAnimationBallRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotate.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallRotate.swift; sourceTree = "<group>"; };
+		23C9D843423E724D08EFD128971F4060 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleMultiple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleMultiple.swift; sourceTree = "<group>"; };
+		257C4AD5B026A18291A3DA9FA4CD1D62 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotatePulse.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotatePulse.swift; sourceTree = "<group>"; };
+		267303696144220AC53741C7D950837F /* NVActivityIndicatorAnimationBallGridBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridBeat.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallGridBeat.swift; sourceTree = "<group>"; };
+		352063AA54C1FD3DF19D879A5644582F /* Pods-ClimawatchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClimawatchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		35B05583F18303F79CD93267ADC23673 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSemiCircleSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationSemiCircleSpin.swift; sourceTree = "<group>"; };
+		3E1BCD12FA1E1F02F6D5DB837BED924F /* NVActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
+		4605278AE8E2228BA39D9DC1FEC285B7 /* Pods-Climawatch-ClimawatchUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Climawatch-ClimawatchUITests-dummy.m"; sourceTree = "<group>"; };
+		4975C07FFA68D8377D3D1983A2BD6757 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotateMultiple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotateMultiple.swift; sourceTree = "<group>"; };
+		49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5032174CE9C489F33EF397286231E2E6 /* NVActivityIndicatorPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorPresenter.swift; path = Source/NVActivityIndicatorView/Presenter/NVActivityIndicatorPresenter.swift; sourceTree = "<group>"; };
+		51242E61270A4247F8B09186EF8501B1 /* NVActivityIndicatorAnimationAudioEqualizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationAudioEqualizer.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationAudioEqualizer.swift; sourceTree = "<group>"; };
+		51A34E4A738E783269D41980B2B7880C /* Pods-Climawatch-ClimawatchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Climawatch-ClimawatchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		55F044522F16AB25E512CA3415F51AB7 /* Pods-Climawatch-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Climawatch-frameworks.sh"; sourceTree = "<group>"; };
+		5E412F5F85B544765B110CCACED70211 /* NVActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		60F46CF2BC1CA375F6D85FE61C0E75E0 /* NVActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NVActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
+		620D44F14E6E338897E6A7F4832107D7 /* Pods-Climawatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Climawatch.release.xcconfig"; sourceTree = "<group>"; };
+		6D2EF22CC7980037E986626F59D5209E /* NVActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NVActivityIndicatorView.modulemap; sourceTree = "<group>"; };
+		70FB0E1E222913011124586E1F9B6533 /* Pods-Climawatch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Climawatch-dummy.m"; sourceTree = "<group>"; };
+		732CCBC31EB4AE02F25809F315024A19 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCircleStrokeSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationCircleStrokeSpin.swift; sourceTree = "<group>"; };
+		738643944491D05D74EC81715E4889B2 /* NVActivityIndicatorAnimationPacman.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationPacman.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationPacman.swift; sourceTree = "<group>"; };
+		76BFB7F37FC16D215F2281C41A0C580B /* NVActivityIndicatorShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorShape.swift; path = Source/NVActivityIndicatorView/NVActivityIndicatorShape.swift; sourceTree = "<group>"; };
+		7759AE401A5E7FF646E6A4335AD18E48 /* Pods-Climawatch-ClimawatchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Climawatch-ClimawatchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7B8A68F95EC416ED49CF36F921B47C5B /* Pods-ClimawatchTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClimawatchTests-umbrella.h"; sourceTree = "<group>"; };
+		80ABB37CCE5826B2554028FB96D7FA4D /* Pods-Climawatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Climawatch.debug.xcconfig"; sourceTree = "<group>"; };
+		8279CF9E4B7FCB60B1D4E5293F214925 /* Pods-ClimawatchTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClimawatchTests-dummy.m"; sourceTree = "<group>"; };
+		866A888298A312517C734790F1B3D448 /* NVActivityIndicatorAnimationBallZigZag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZag.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallZigZag.swift; sourceTree = "<group>"; };
+		87FCAA0719F590A217D2B8DB31AB9830 /* NVActivityIndicatorAnimationBallDoubleBounce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallDoubleBounce.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallDoubleBounce.swift; sourceTree = "<group>"; };
+		87FE64FB578441D8D9BD55D632078502 /* Pods-Climawatch-ClimawatchUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Climawatch-ClimawatchUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		888A7ADF2B0C5CCBA575144FD6854912 /* Pods-Climawatch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Climawatch-Info.plist"; sourceTree = "<group>"; };
+		8970A58F2FCE10635ABD36E9B54D6203 /* NVActivityIndicatorAnimationBallRotateChase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotateChase.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallRotateChase.swift; sourceTree = "<group>"; };
+		8B85E3FCA67F213BB62CCA25A8BD935D /* NVActivityIndicatorAnimationLineScaleParty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScaleParty.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScaleParty.swift; sourceTree = "<group>"; };
+		8BF23D73BC9B4C415E7CFD7D58ABFEBE /* NVActivityIndicatorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NVActivityIndicatorView-Info.plist"; sourceTree = "<group>"; };
+		91994FDF901EFC4160B5A287840ABE63 /* NVActivityIndicatorAnimationBallScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScale.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScale.swift; sourceTree = "<group>"; };
+		950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		950FFAC6F0365DB5E037D457C8846ADF /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZagDeflect.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallZigZagDeflect.swift; sourceTree = "<group>"; };
+		964BE55B75EA7C8DD154A3A6AEF517B6 /* Pods-Climawatch-ClimawatchUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Climawatch-ClimawatchUITests.modulemap"; sourceTree = "<group>"; };
+		96FE59122E613089D5698B5CFCD3CFDA /* NVActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorView.swift; path = Source/NVActivityIndicatorView/NVActivityIndicatorView.swift; sourceTree = "<group>"; };
+		9CB68FB12C85B3E9C87F3CB0FB7EA93D /* Pods-Climawatch-ClimawatchUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Climawatch-ClimawatchUITests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A18910E4BF299A2DF9A5A48B18DBB50F /* Pods_Climawatch_ClimawatchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Climawatch_ClimawatchUITests.framework; path = "Pods-Climawatch-ClimawatchUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B9F27862201CD82B398E0B35B14128 /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NVActivityIndicatorView.framework; path = NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5707A0AF6F79F153D8CCC6892A27B2E /* Pods_ClimawatchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ClimawatchTests.framework; path = "Pods-ClimawatchTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7672FA29688D3410B34A44C8AED2F08 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationTriangleSkewSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationTriangleSkewSpin.swift; sourceTree = "<group>"; };
 		B0A227DFF19DFB767A5B99E7C13F482C /* Pods_Climawatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Climawatch.framework; path = "Pods-Climawatch.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7927C3F360D62484BB46CA9D6015AD7 /* Pods-ClimawatchTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClimawatchTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D69D39B8BB4468DAFAFC32B27BD37FCF /* Pods-Climawatch-ClimawatchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Climawatch-ClimawatchUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		DBB6960BCD7654CB082B6E897E537954 /* Pods-ClimawatchTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ClimawatchTests.modulemap"; sourceTree = "<group>"; };
-		DFF15DDC4B7B626995FF91DC18318010 /* Pods-ClimawatchTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClimawatchTests-umbrella.h"; sourceTree = "<group>"; };
-		E1D7BF2F9AD9D66990E6AF8B3C2B0855 /* Pods-ClimawatchTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClimawatchTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F9C4383D4C5F8627BE9067389AA9A3C6 /* Pods-Climawatch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Climawatch.modulemap"; sourceTree = "<group>"; };
-		FAD8EDDFD73041C81B288F5DB4AAA20D /* Pods-ClimawatchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClimawatchTests.release.xcconfig"; sourceTree = "<group>"; };
-		FC1A010B0E2B167B17AC2B303C866E86 /* Pods-Climawatch-ClimawatchUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Climawatch-ClimawatchUITests-dummy.m"; sourceTree = "<group>"; };
-		FFE7BB2055D860EFE84B1FE9D303B759 /* Pods-Climawatch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Climawatch-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B169C24D5E5CE360095B2ACCDEFFD522 /* NVActivityIndicatorAnimationBlank.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBlank.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBlank.swift; sourceTree = "<group>"; };
+		B34EB2E72610D798F73F263AB734B9D6 /* NVActivityIndicatorAnimationBallClipRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotate.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotate.swift; sourceTree = "<group>"; };
+		B436D8B14B51CBC18A94E0BE2E8D4E28 /* Pods-Climawatch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Climawatch-acknowledgements.plist"; sourceTree = "<group>"; };
+		B9E5F8FAE3A88BDE86C412753EE2B135 /* NVActivityIndicatorAnimationBallBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallBeat.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallBeat.swift; sourceTree = "<group>"; };
+		C115FF2FC1AF81AF8F49933BDD4FEBB4 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineSpinFadeLoader.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineSpinFadeLoader.swift; sourceTree = "<group>"; };
+		C3DEC53E380D4E3C95BAF432C2249C3A /* NVActivityIndicatorAnimationOrbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationOrbit.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationOrbit.swift; sourceTree = "<group>"; };
+		C5707F376A338FB34D9B09125453749D /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; sourceTree = "<group>"; };
+		CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		CCE41F19FFC80031CAE8DD4CFE70D22F /* Pods-Climawatch-ClimawatchUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Climawatch-ClimawatchUITests-Info.plist"; sourceTree = "<group>"; };
+		CDC04A6E6B7DCC02331DD330B704C646 /* NVActivityIndicatorViewable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorViewable.swift; path = Source/NVActivityIndicatorView/Presenter/NVActivityIndicatorViewable.swift; sourceTree = "<group>"; };
+		D122D6445A13F1E83BCA2D40C88836C6 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; sourceTree = "<group>"; };
+		D611FA569055B6B52A186F31930019F3 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOut.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScalePulseOut.swift; sourceTree = "<group>"; };
+		DB6252F717B760E5D8248636F1CB88E5 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallSpinFadeLoader.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallSpinFadeLoader.swift; sourceTree = "<group>"; };
+		DBEF37C67423136318B2864E8CDEA3D4 /* Pods-Climawatch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Climawatch.modulemap"; sourceTree = "<group>"; };
+		DD8757F5EE0BED5E58304C2C3B3AA0B2 /* NVActivityIndicatorAnimationLineScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScale.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScale.swift; sourceTree = "<group>"; };
+		E388A6BF69F16B12BE607348029C47FB /* NVActivityIndicatorAnimationCubeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCubeTransition.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationCubeTransition.swift; sourceTree = "<group>"; };
+		EBCE02D310A755ACBA9EE449A5C63445 /* Pods-ClimawatchTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ClimawatchTests.modulemap"; sourceTree = "<group>"; };
+		F0BEC594618145DE1A955499B5C89298 /* Pods-ClimawatchTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClimawatchTests-Info.plist"; sourceTree = "<group>"; };
+		F289BC4089C55AA072FA95958DC40FCB /* Pods-Climawatch-ClimawatchUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Climawatch-ClimawatchUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F4048CC534944B02FEBE0DB3608983F0 /* NVActivityIndicatorAnimationBallScaleRipple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRipple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleRipple.swift; sourceTree = "<group>"; };
+		F42EF85D8DE247009BC4BC26984D752D /* NVActivityIndicatorAnimationBallPulseSync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseSync.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulseSync.swift; sourceTree = "<group>"; };
+		F45D67137FC1BA087847EB3ACA0B86B1 /* NVActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		FF13ED2C1B32515725A6421EFEB39FFA /* NVActivityIndicatorAnimationSquareSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSquareSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationSquareSpin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2EF5CF5D2D51106FAACEEC9640413747 /* Frameworks */ = {
+		9E8E97041642346F291712166F3EE25E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8BFA545707130E28F380262C149A2C0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		51B73C7C8B4C5EC8219594D27DEEE91C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C21D775980C2C90C69DC23283154D335 /* Foundation.framework in Frameworks */,
+				8D4AF8BBBFB3C99A8A0EC4D8E7C3AA2B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,81 +185,84 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3B8E8FA700D6250F9A6126DDFB4BAE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FEC5AAEF5841875C90EAA04A824277 /* Foundation.framework in Frameworks */,
+				54C5CC95513F4B361BA0F784818DD6E4 /* QuartzCore.framework in Frameworks */,
+				6033B51021E10F40310F40645A99EC65 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF768F63C5D7B58BC97E15D1A7ED719F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32450B425D3136FFF3CBF328E41E2D86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		183DE565AE6D5B14DE0713DFB05D0B35 /* Pods-Climawatch-ClimawatchUITests */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				68986EF0F270258D3851D4A4069FE5D0 /* Pods-Climawatch-ClimawatchUITests.modulemap */,
-				8EFE8AAACE44D999DB1928FAB059A85E /* Pods-Climawatch-ClimawatchUITests-acknowledgements.markdown */,
-				138362E721FBC66496AA904D889E05B9 /* Pods-Climawatch-ClimawatchUITests-acknowledgements.plist */,
-				FC1A010B0E2B167B17AC2B303C866E86 /* Pods-Climawatch-ClimawatchUITests-dummy.m */,
-				128B734779A53B1FC60BFC806E381507 /* Pods-Climawatch-ClimawatchUITests-Info.plist */,
-				3D6AC89C871D68B3D463202395BD2CC5 /* Pods-Climawatch-ClimawatchUITests-umbrella.h */,
-				D69D39B8BB4468DAFAFC32B27BD37FCF /* Pods-Climawatch-ClimawatchUITests.debug.xcconfig */,
-				69DE5DF5428566E6345BF27FE9993725 /* Pods-Climawatch-ClimawatchUITests.release.xcconfig */,
+				C18BABFF9523A33465B5A91496FF0C3D /* iOS */,
 			);
-			name = "Pods-Climawatch-ClimawatchUITests";
-			path = "Target Support Files/Pods-Climawatch-ClimawatchUITests";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2782E9BA242F1C5BCA199647893A4350 /* Pods-ClimawatchTests */ = {
+		5AF51C716B279572C9A0F54BF47DB86F /* Pods-ClimawatchTests */ = {
 			isa = PBXGroup;
 			children = (
-				DBB6960BCD7654CB082B6E897E537954 /* Pods-ClimawatchTests.modulemap */,
-				C7927C3F360D62484BB46CA9D6015AD7 /* Pods-ClimawatchTests-acknowledgements.markdown */,
-				E1D7BF2F9AD9D66990E6AF8B3C2B0855 /* Pods-ClimawatchTests-acknowledgements.plist */,
-				70952B34CFCF677F2868F22DBCB640EF /* Pods-ClimawatchTests-dummy.m */,
-				52DF2B443DFB63A454BF494F69626E0F /* Pods-ClimawatchTests-Info.plist */,
-				DFF15DDC4B7B626995FF91DC18318010 /* Pods-ClimawatchTests-umbrella.h */,
-				0F8DCCFC1B3DBDCBE0999E4A5DB4D993 /* Pods-ClimawatchTests.debug.xcconfig */,
-				FAD8EDDFD73041C81B288F5DB4AAA20D /* Pods-ClimawatchTests.release.xcconfig */,
+				EBCE02D310A755ACBA9EE449A5C63445 /* Pods-ClimawatchTests.modulemap */,
+				0FD20C62012C4866DCD6727DA518E867 /* Pods-ClimawatchTests-acknowledgements.markdown */,
+				1C01BF2B05E2A3237CA81AFDF40C0ADB /* Pods-ClimawatchTests-acknowledgements.plist */,
+				8279CF9E4B7FCB60B1D4E5293F214925 /* Pods-ClimawatchTests-dummy.m */,
+				F0BEC594618145DE1A955499B5C89298 /* Pods-ClimawatchTests-Info.plist */,
+				7B8A68F95EC416ED49CF36F921B47C5B /* Pods-ClimawatchTests-umbrella.h */,
+				352063AA54C1FD3DF19D879A5644582F /* Pods-ClimawatchTests.debug.xcconfig */,
+				03DF2BFEF392B75BDFC9B05DCB5C217E /* Pods-ClimawatchTests.release.xcconfig */,
 			);
 			name = "Pods-ClimawatchTests";
 			path = "Target Support Files/Pods-ClimawatchTests";
 			sourceTree = "<group>";
 		};
-		83A0FA1BF081FA8437BB5C4285102C0E /* Targets Support Files */ = {
+		A48A55BA71BB9CAE835264783498A93E /* NVActivityIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
-				B0BEFDAADBB677E03EACD3690F75B756 /* Pods-Climawatch */,
-				183DE565AE6D5B14DE0713DFB05D0B35 /* Pods-Climawatch-ClimawatchUITests */,
-				2782E9BA242F1C5BCA199647893A4350 /* Pods-ClimawatchTests */,
+				EDE364CD5813220244257B3D8EA6A4B0 /* Presenter */,
+				E00A349518E10579CF792F79190F6B71 /* Support Files */,
 			);
-			name = "Targets Support Files";
+			name = NVActivityIndicatorView;
+			path = NVActivityIndicatorView;
 			sourceTree = "<group>";
 		};
-		B0BEFDAADBB677E03EACD3690F75B756 /* Pods-Climawatch */ = {
+		BAA5D005E395182D3C828F1C4EF8B62F /* Pods-Climawatch-ClimawatchUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F9C4383D4C5F8627BE9067389AA9A3C6 /* Pods-Climawatch.modulemap */,
-				FFE7BB2055D860EFE84B1FE9D303B759 /* Pods-Climawatch-acknowledgements.markdown */,
-				303AA77527842750570CFEBB4A5C39C7 /* Pods-Climawatch-acknowledgements.plist */,
-				34B2D73D96C08755784DB03F68267612 /* Pods-Climawatch-dummy.m */,
-				7FAD78618CA64CD28ABC1285B650570A /* Pods-Climawatch-Info.plist */,
-				30A51C06F8D3475E6CF95E41B11A000D /* Pods-Climawatch-umbrella.h */,
-				56884B0427B541C9C15E88C246B208AD /* Pods-Climawatch.debug.xcconfig */,
-				205EFB961E8CA064C19A4CD0A75FE42D /* Pods-Climawatch.release.xcconfig */,
+				964BE55B75EA7C8DD154A3A6AEF517B6 /* Pods-Climawatch-ClimawatchUITests.modulemap */,
+				87FE64FB578441D8D9BD55D632078502 /* Pods-Climawatch-ClimawatchUITests-acknowledgements.markdown */,
+				F289BC4089C55AA072FA95958DC40FCB /* Pods-Climawatch-ClimawatchUITests-acknowledgements.plist */,
+				4605278AE8E2228BA39D9DC1FEC285B7 /* Pods-Climawatch-ClimawatchUITests-dummy.m */,
+				0D732310F0D28797AA8A144CDE0FBDED /* Pods-Climawatch-ClimawatchUITests-frameworks.sh */,
+				CCE41F19FFC80031CAE8DD4CFE70D22F /* Pods-Climawatch-ClimawatchUITests-Info.plist */,
+				9CB68FB12C85B3E9C87F3CB0FB7EA93D /* Pods-Climawatch-ClimawatchUITests-umbrella.h */,
+				51A34E4A738E783269D41980B2B7880C /* Pods-Climawatch-ClimawatchUITests.debug.xcconfig */,
+				7759AE401A5E7FF646E6A4335AD18E48 /* Pods-Climawatch-ClimawatchUITests.release.xcconfig */,
 			);
-			name = "Pods-Climawatch";
-			path = "Target Support Files/Pods-Climawatch";
+			name = "Pods-Climawatch-ClimawatchUITests";
+			path = "Target Support Files/Pods-Climawatch-ClimawatchUITests";
 			sourceTree = "<group>";
 		};
-		BE13C877FE818BDD0C9AB1F5C44607E3 /* Products */ = {
+		C18BABFF9523A33465B5A91496FF0C3D /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				B0A227DFF19DFB767A5B99E7C13F482C /* Pods_Climawatch.framework */,
-				A18910E4BF299A2DF9A5A48B18DBB50F /* Pods_Climawatch_ClimawatchUITests.framework */,
-				A5707A0AF6F79F153D8CCC6892A27B2E /* Pods_ClimawatchTests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */,
+				CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */,
+				49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -168,18 +271,117 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				BE13C877FE818BDD0C9AB1F5C44607E3 /* Products */,
-				83A0FA1BF081FA8437BB5C4285102C0E /* Targets Support Files */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				E2B6DD60F14C0326F24CA8C890A0B249 /* Pods */,
+				ECD8086EC2D27963BA4FB59F85937A6E /* Products */,
+				F1CA2E434C2935E1E604842FF94628B5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E00A349518E10579CF792F79190F6B71 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				6D2EF22CC7980037E986626F59D5209E /* NVActivityIndicatorView.modulemap */,
+				3E1BCD12FA1E1F02F6D5DB837BED924F /* NVActivityIndicatorView.xcconfig */,
+				60F46CF2BC1CA375F6D85FE61C0E75E0 /* NVActivityIndicatorView-dummy.m */,
+				8BF23D73BC9B4C415E7CFD7D58ABFEBE /* NVActivityIndicatorView-Info.plist */,
+				F45D67137FC1BA087847EB3ACA0B86B1 /* NVActivityIndicatorView-prefix.pch */,
+				5E412F5F85B544765B110CCACED70211 /* NVActivityIndicatorView-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/NVActivityIndicatorView";
+			sourceTree = "<group>";
+		};
+		E2B6DD60F14C0326F24CA8C890A0B249 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A48A55BA71BB9CAE835264783498A93E /* NVActivityIndicatorView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ECD8086EC2D27963BA4FB59F85937A6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9F27862201CD82B398E0B35B14128 /* NVActivityIndicatorView.framework */,
+				B0A227DFF19DFB767A5B99E7C13F482C /* Pods_Climawatch.framework */,
+				A18910E4BF299A2DF9A5A48B18DBB50F /* Pods_Climawatch_ClimawatchUITests.framework */,
+				A5707A0AF6F79F153D8CCC6892A27B2E /* Pods_ClimawatchTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDE364CD5813220244257B3D8EA6A4B0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				51242E61270A4247F8B09186EF8501B1 /* NVActivityIndicatorAnimationAudioEqualizer.swift */,
+				B9E5F8FAE3A88BDE86C412753EE2B135 /* NVActivityIndicatorAnimationBallBeat.swift */,
+				B34EB2E72610D798F73F263AB734B9D6 /* NVActivityIndicatorAnimationBallClipRotate.swift */,
+				4975C07FFA68D8377D3D1983A2BD6757 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */,
+				257C4AD5B026A18291A3DA9FA4CD1D62 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */,
+				87FCAA0719F590A217D2B8DB31AB9830 /* NVActivityIndicatorAnimationBallDoubleBounce.swift */,
+				267303696144220AC53741C7D950837F /* NVActivityIndicatorAnimationBallGridBeat.swift */,
+				19ED4B3B94195D05A342A7ED0A0B9C2B /* NVActivityIndicatorAnimationBallGridPulse.swift */,
+				0ABC5576B98E686611C43AE15466616E /* NVActivityIndicatorAnimationBallPulse.swift */,
+				1D765BF310C263CA012D009282AE6352 /* NVActivityIndicatorAnimationBallPulseRise.swift */,
+				F42EF85D8DE247009BC4BC26984D752D /* NVActivityIndicatorAnimationBallPulseSync.swift */,
+				1DD85CF7FBA511E5B061A58CBE43C9F8 /* NVActivityIndicatorAnimationBallRotate.swift */,
+				8970A58F2FCE10635ABD36E9B54D6203 /* NVActivityIndicatorAnimationBallRotateChase.swift */,
+				91994FDF901EFC4160B5A287840ABE63 /* NVActivityIndicatorAnimationBallScale.swift */,
+				23C9D843423E724D08EFD128971F4060 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */,
+				F4048CC534944B02FEBE0DB3608983F0 /* NVActivityIndicatorAnimationBallScaleRipple.swift */,
+				D122D6445A13F1E83BCA2D40C88836C6 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */,
+				DB6252F717B760E5D8248636F1CB88E5 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */,
+				12C30D41A419A0F02223E00515A18C75 /* NVActivityIndicatorAnimationBallTrianglePath.swift */,
+				866A888298A312517C734790F1B3D448 /* NVActivityIndicatorAnimationBallZigZag.swift */,
+				950FFAC6F0365DB5E037D457C8846ADF /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */,
+				B169C24D5E5CE360095B2ACCDEFFD522 /* NVActivityIndicatorAnimationBlank.swift */,
+				732CCBC31EB4AE02F25809F315024A19 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */,
+				E388A6BF69F16B12BE607348029C47FB /* NVActivityIndicatorAnimationCubeTransition.swift */,
+				09DB6EB0AFE8FDFB1FD00F5BDB0662B3 /* NVActivityIndicatorAnimationDelegate.swift */,
+				DD8757F5EE0BED5E58304C2C3B3AA0B2 /* NVActivityIndicatorAnimationLineScale.swift */,
+				8B85E3FCA67F213BB62CCA25A8BD935D /* NVActivityIndicatorAnimationLineScaleParty.swift */,
+				D611FA569055B6B52A186F31930019F3 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */,
+				C5707F376A338FB34D9B09125453749D /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */,
+				C115FF2FC1AF81AF8F49933BDD4FEBB4 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */,
+				C3DEC53E380D4E3C95BAF432C2249C3A /* NVActivityIndicatorAnimationOrbit.swift */,
+				738643944491D05D74EC81715E4889B2 /* NVActivityIndicatorAnimationPacman.swift */,
+				35B05583F18303F79CD93267ADC23673 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */,
+				FF13ED2C1B32515725A6421EFEB39FFA /* NVActivityIndicatorAnimationSquareSpin.swift */,
+				A7672FA29688D3410B34A44C8AED2F08 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */,
+				5032174CE9C489F33EF397286231E2E6 /* NVActivityIndicatorPresenter.swift */,
+				76BFB7F37FC16D215F2281C41A0C580B /* NVActivityIndicatorShape.swift */,
+				96FE59122E613089D5698B5CFCD3CFDA /* NVActivityIndicatorView.swift */,
+				CDC04A6E6B7DCC02331DD330B704C646 /* NVActivityIndicatorViewable.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		F1CA2E434C2935E1E604842FF94628B5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDDCDEFA3CFEE02D617700A7BAA81113 /* Pods-Climawatch */,
+				BAA5D005E395182D3C828F1C4EF8B62F /* Pods-Climawatch-ClimawatchUITests */,
+				5AF51C716B279572C9A0F54BF47DB86F /* Pods-ClimawatchTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FDDCDEFA3CFEE02D617700A7BAA81113 /* Pods-Climawatch */ = {
+			isa = PBXGroup;
+			children = (
+				DBEF37C67423136318B2864E8CDEA3D4 /* Pods-Climawatch.modulemap */,
+				10CC41E1B6DB9D5C506715B4DBBB9985 /* Pods-Climawatch-acknowledgements.markdown */,
+				B436D8B14B51CBC18A94E0BE2E8D4E28 /* Pods-Climawatch-acknowledgements.plist */,
+				70FB0E1E222913011124586E1F9B6533 /* Pods-Climawatch-dummy.m */,
+				55F044522F16AB25E512CA3415F51AB7 /* Pods-Climawatch-frameworks.sh */,
+				888A7ADF2B0C5CCBA575144FD6854912 /* Pods-Climawatch-Info.plist */,
+				0A5F084CE0F5A37C0A655B4037D1BD16 /* Pods-Climawatch-umbrella.h */,
+				80ABB37CCE5826B2554028FB96D7FA4D /* Pods-Climawatch.debug.xcconfig */,
+				620D44F14E6E338897E6A7F4832107D7 /* Pods-Climawatch.release.xcconfig */,
+			);
+			name = "Pods-Climawatch";
+			path = "Target Support Files/Pods-Climawatch";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,19 +395,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41FA0E85A4C87B51C5F3E8374C347C00 /* Headers */ = {
+		234F2946257C1D05FE7D659FFADA91AA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A73F0C11E357B4C15975CCD091675342 /* Pods-Climawatch-ClimawatchUITests-umbrella.h in Headers */,
+				F41D0CB8526FB78F1B5A1BA753B9E97D /* Pods-Climawatch-ClimawatchUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A349338B0548C5825FA7C020CDC618FA /* Headers */ = {
+		5A012ED9E50056FADF12E7D72D89A572 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F23F4C47B8CF1BAE1B36C7517F56E123 /* Pods-Climawatch-umbrella.h in Headers */,
+				392ACF0CEF36FDAF6D3DE6EC20A48E90 /* Pods-Climawatch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B711B03BB20FEE189CBE51BB9E49A2BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEF425AA81B02F1CF80C80AA103AF7B /* NVActivityIndicatorView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,20 +424,39 @@
 /* Begin PBXNativeTarget section */
 		68A219547839F337DD54A59D90C239CC /* Pods-Climawatch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C09688F507CC71E4C1D11863FA7DFDC7 /* Build configuration list for PBXNativeTarget "Pods-Climawatch" */;
+			buildConfigurationList = 5BE72D5DA3F1E2D81995F65FED9B857F /* Build configuration list for PBXNativeTarget "Pods-Climawatch" */;
 			buildPhases = (
-				A349338B0548C5825FA7C020CDC618FA /* Headers */,
-				5432D6008378B0D990A0F71CD3AF64C7 /* Sources */,
-				51B73C7C8B4C5EC8219594D27DEEE91C /* Frameworks */,
-				892AED6F139F8EC1BB184C3CFC604FC6 /* Resources */,
+				5A012ED9E50056FADF12E7D72D89A572 /* Headers */,
+				B55E793E219097C671FFD6E77B22FCD6 /* Sources */,
+				9E8E97041642346F291712166F3EE25E /* Frameworks */,
+				5407A8828CA81DDCEB7FC0E17F905D13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2827CACCD917CD17E5BB2A40E689748 /* PBXTargetDependency */,
+			);
+			name = "Pods-Climawatch";
+			productName = "Pods-Climawatch";
+			productReference = B0A227DFF19DFB767A5B99E7C13F482C /* Pods_Climawatch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF8A82876C43F4DFD625D1823E680EAC /* NVActivityIndicatorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1539FEE9B52D30E813E5B36F3CB2650D /* Build configuration list for PBXNativeTarget "NVActivityIndicatorView" */;
+			buildPhases = (
+				B711B03BB20FEE189CBE51BB9E49A2BC /* Headers */,
+				11FE8C16F672C132EB3D51574695A124 /* Sources */,
+				E3B8E8FA700D6250F9A6126DDFB4BAE1 /* Frameworks */,
+				56CF30AB148B08D6CBB3EE28779A4472 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Climawatch";
-			productName = "Pods-Climawatch";
-			productReference = B0A227DFF19DFB767A5B99E7C13F482C /* Pods_Climawatch.framework */;
+			name = NVActivityIndicatorView;
+			productName = NVActivityIndicatorView;
+			productReference = A1B9F27862201CD82B398E0B35B14128 /* NVActivityIndicatorView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D74420838A51FE9726084D5454136EB2 /* Pods-ClimawatchTests */ = {
@@ -251,16 +480,17 @@
 		};
 		E83A9EC635F8502BA87E9A7B20C735F5 /* Pods-Climawatch-ClimawatchUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E6194431A06B948E42F389EFE682EC72 /* Build configuration list for PBXNativeTarget "Pods-Climawatch-ClimawatchUITests" */;
+			buildConfigurationList = 40EE13C6F35312E5EA69C779AFC8A3AC /* Build configuration list for PBXNativeTarget "Pods-Climawatch-ClimawatchUITests" */;
 			buildPhases = (
-				41FA0E85A4C87B51C5F3E8374C347C00 /* Headers */,
-				E44995DB12569D1B25D5AB9E34AF7066 /* Sources */,
-				2EF5CF5D2D51106FAACEEC9640413747 /* Frameworks */,
-				FB018E6B3125FEDE968B48C5ADC1F5D8 /* Resources */,
+				234F2946257C1D05FE7D659FFADA91AA /* Headers */,
+				C56E3341C3B9F73FCF57D2E6E59513BB /* Sources */,
+				FF768F63C5D7B58BC97E15D1A7ED719F /* Frameworks */,
+				FADC8BB617ED341C0AF1C5B0230C22D7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				884812BDB429B45D3E2B7E73465DEC04 /* PBXTargetDependency */,
 			);
 			name = "Pods-Climawatch-ClimawatchUITests";
 			productName = "Pods-Climawatch-ClimawatchUITests";
@@ -284,10 +514,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = BE13C877FE818BDD0C9AB1F5C44607E3 /* Products */;
+			productRefGroup = ECD8086EC2D27963BA4FB59F85937A6E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				AF8A82876C43F4DFD625D1823E680EAC /* NVActivityIndicatorView */,
 				68A219547839F337DD54A59D90C239CC /* Pods-Climawatch */,
 				E83A9EC635F8502BA87E9A7B20C735F5 /* Pods-Climawatch-ClimawatchUITests */,
 				D74420838A51FE9726084D5454136EB2 /* Pods-ClimawatchTests */,
@@ -296,7 +527,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		892AED6F139F8EC1BB184C3CFC604FC6 /* Resources */ = {
+		5407A8828CA81DDCEB7FC0E17F905D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56CF30AB148B08D6CBB3EE28779A4472 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -310,7 +548,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB018E6B3125FEDE968B48C5ADC1F5D8 /* Resources */ = {
+		FADC8BB617ED341C0AF1C5B0230C22D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -320,6 +558,53 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		11FE8C16F672C132EB3D51574695A124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739AA69BF3B6A9747201587D067DC14C /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */,
+				81DAF62D21712670F61159BC27951341 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */,
+				49CD0AF62D26E8B691207DA6E47E6249 /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */,
+				A54422D64A06F3B8C07FF01FE18D256F /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */,
+				CAD3EA6AB72EAB20BC8B526A9037FBD3 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */,
+				F4AB070792FBEFFBFAA96D2EA18BD3E1 /* NVActivityIndicatorAnimationBallDoubleBounce.swift in Sources */,
+				BF9E30025CF0D786A102F577C3DDD387 /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */,
+				73F366235A97A2AF6CD0ABD36B8C3918 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */,
+				9209EF6A87C503DF3C409E91924DACDD /* NVActivityIndicatorAnimationBallPulse.swift in Sources */,
+				CE4CC2301A717EDFE1881D6C958BF791 /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */,
+				18D3B316ACCF21376DE24F8E443355FF /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */,
+				55602BE8A67E44301481597D8DE5B677 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */,
+				9949F4C822F89A3BA5AA75C0C0165E32 /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */,
+				23CFCA220D10319B40A4A7AFB16205E7 /* NVActivityIndicatorAnimationBallScale.swift in Sources */,
+				797FC27F92CB14544D03CF0E00BE0822 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */,
+				CA40DB89394085FBBBE4B0D5A40DA340 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */,
+				5E83A81465CB917AD6338D7AF1853F3E /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */,
+				B64D07267C9F00F9B9A4E67392000CA4 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */,
+				00640013C91346449891CEAAC4F5C689 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */,
+				ED837F96403A20322FAED9C51542F666 /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */,
+				B55E5F7C3559316ABBAD12774DD9E7F3 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */,
+				BA40588701247416D36537D1EC065931 /* NVActivityIndicatorAnimationBlank.swift in Sources */,
+				9FC1C863E4F4279B2F875C1F863E04A3 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */,
+				DBC908168E6099E6842155A7E5F1E328 /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */,
+				FC424F3BE1C5E3258FE456F6D35391D1 /* NVActivityIndicatorAnimationDelegate.swift in Sources */,
+				7CAA65050EAE8A3D320E0B33DD17305B /* NVActivityIndicatorAnimationLineScale.swift in Sources */,
+				34798F1AF2593E71F37D22B860D1AA6B /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */,
+				85EE677C8757712A703AFD3824FB0153 /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */,
+				BA5D029B0EB9D152BB0A11ECC9732DD5 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */,
+				38BB4CA7DC4C632D8A40A1A62CD4F88A /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */,
+				E958B4A049EE0B62FBD2B0B6F001A660 /* NVActivityIndicatorAnimationOrbit.swift in Sources */,
+				00C250907C31BD7CD6F6FBCF6C160979 /* NVActivityIndicatorAnimationPacman.swift in Sources */,
+				088D1B4FFBF195E2C5F971CE6E01F306 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */,
+				E1D169DD2A73355BB87CFC7EBC69716E /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */,
+				69BF4B71FF5D9974FEA12A55FEFCFF8F /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */,
+				BF4107A462C6AA1C2D361B17B67C3BC3 /* NVActivityIndicatorPresenter.swift in Sources */,
+				E235043951A82BF949762434A2B280E7 /* NVActivityIndicatorShape.swift in Sources */,
+				E058420E139C45F11C6220810F9F89BC /* NVActivityIndicatorView-dummy.m in Sources */,
+				C06909BBDAAD9A6C31D3FB2FD3BAD93E /* NVActivityIndicatorView.swift in Sources */,
+				063E0A231A62F5D1B7AEFA52F61CBE8C /* NVActivityIndicatorViewable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4540700FC2EF4553D203FE2116E318D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -328,19 +613,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5432D6008378B0D990A0F71CD3AF64C7 /* Sources */ = {
+		B55E793E219097C671FFD6E77B22FCD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC5C81EAABE0A78508C61B38730DE4F9 /* Pods-Climawatch-dummy.m in Sources */,
+				D20BFF67D53752151A427545F6500DD5 /* Pods-Climawatch-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E44995DB12569D1B25D5AB9E34AF7066 /* Sources */ = {
+		C56E3341C3B9F73FCF57D2E6E59513BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				793BC48512A2CE063A852C7E8889E3EF /* Pods-Climawatch-ClimawatchUITests-dummy.m in Sources */,
+				D4C95F66768F8D154894BD46E9CD8956 /* Pods-Climawatch-ClimawatchUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,47 +638,21 @@
 			target = 68A219547839F337DD54A59D90C239CC /* Pods-Climawatch */;
 			targetProxy = D2AFA55315DF6C33D49B7B941425236D /* PBXContainerItemProxy */;
 		};
+		884812BDB429B45D3E2B7E73465DEC04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NVActivityIndicatorView;
+			target = AF8A82876C43F4DFD625D1823E680EAC /* NVActivityIndicatorView */;
+			targetProxy = 63CD86D02DD79028E5BF9CC13B224743 /* PBXContainerItemProxy */;
+		};
+		D2827CACCD917CD17E5BB2A40E689748 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NVActivityIndicatorView;
+			target = AF8A82876C43F4DFD625D1823E680EAC /* NVActivityIndicatorView */;
+			targetProxy = 0EB525FC9E538E8CA586BF63160EFE2C /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0C9AC883ED81A1A73FEE336CCB0994DC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D69D39B8BB4468DAFAFC32B27BD37FCF /* Pods-Climawatch-ClimawatchUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Climawatch-ClimawatchUITests/Pods-Climawatch-ClimawatchUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Climawatch-ClimawatchUITests/Pods-Climawatch-ClimawatchUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -454,9 +713,45 @@
 			};
 			name = Release;
 		};
-		1DC81D9FA82CB8EBD130E20CB9587714 /* Debug */ = {
+		26C2FA1BB0ED1898EF933C7FCF63CB5D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56884B0427B541C9C15E88C246B208AD /* Pods-Climawatch.debug.xcconfig */;
+			baseConfigurationReference = 3E1BCD12FA1E1F02F6D5DB837BED924F /* NVActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = NVActivityIndicatorView;
+				PRODUCT_NAME = NVActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3DE4FCF10DD5DB73064EA5E0DA728290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 352063AA54C1FD3DF19D879A5644582F /* Pods-ClimawatchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -469,7 +764,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Climawatch/Pods-Climawatch-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ClimawatchTests/Pods-ClimawatchTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -478,7 +773,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Climawatch/Pods-Climawatch.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-ClimawatchTests/Pods-ClimawatchTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -492,9 +787,9 @@
 			};
 			name = Debug;
 		};
-		2B1697542F2A4937A140EA25F61BE8E0 /* Release */ = {
+		43A0A5D52240D6E54F851E10788B079E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69DE5DF5428566E6345BF27FE9993725 /* Pods-Climawatch-ClimawatchUITests.release.xcconfig */;
+			baseConfigurationReference = 7759AE401A5E7FF646E6A4335AD18E48 /* Pods-Climawatch-ClimawatchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -531,47 +826,9 @@
 			};
 			name = Release;
 		};
-		3DE4FCF10DD5DB73064EA5E0DA728290 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F8DCCFC1B3DBDCBE0999E4A5DB4D993 /* Pods-ClimawatchTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ClimawatchTests/Pods-ClimawatchTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ClimawatchTests/Pods-ClimawatchTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		5E22BBC63CFC77EFB85AD1B13CC2F781 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAD8EDDFD73041C81B288F5DB4AAA20D /* Pods-ClimawatchTests.release.xcconfig */;
+			baseConfigurationReference = 03DF2BFEF392B75BDFC9B05DCB5C217E /* Pods-ClimawatchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -608,9 +865,85 @@
 			};
 			name = Release;
 		};
-		A104E7D607F0D5FB4732DC3CB235422A /* Release */ = {
+		69B63572775B53076BC0A6C1DEDEE68F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 205EFB961E8CA064C19A4CD0A75FE42D /* Pods-Climawatch.release.xcconfig */;
+			baseConfigurationReference = 80ABB37CCE5826B2554028FB96D7FA4D /* Pods-Climawatch.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Climawatch/Pods-Climawatch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Climawatch/Pods-Climawatch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		862C090298C00A890CE653F1771986B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51A34E4A738E783269D41980B2B7880C /* Pods-Climawatch-ClimawatchUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Climawatch-ClimawatchUITests/Pods-Climawatch-ClimawatchUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Climawatch-ClimawatchUITests/Pods-Climawatch-ClimawatchUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1AD53D310E91E5BA73D3F0C4DBAE9DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 620D44F14E6E338897E6A7F4832107D7 /* Pods-Climawatch.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -711,14 +1044,67 @@
 			};
 			name = Debug;
 		};
+		EFDC9DA9BBAF0D262426B47B5A1A89E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E1BCD12FA1E1F02F6D5DB837BED924F /* NVActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = NVActivityIndicatorView;
+				PRODUCT_NAME = NVActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1539FEE9B52D30E813E5B36F3CB2650D /* Build configuration list for PBXNativeTarget "NVActivityIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDC9DA9BBAF0D262426B47B5A1A89E2 /* Debug */,
+				26C2FA1BB0ED1898EF933C7FCF63CB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2AAA44FE481DE6F2B456A35D181C4737 /* Build configuration list for PBXNativeTarget "Pods-ClimawatchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3DE4FCF10DD5DB73064EA5E0DA728290 /* Debug */,
 				5E22BBC63CFC77EFB85AD1B13CC2F781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40EE13C6F35312E5EA69C779AFC8A3AC /* Build configuration list for PBXNativeTarget "Pods-Climawatch-ClimawatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				862C090298C00A890CE653F1771986B2 /* Debug */,
+				43A0A5D52240D6E54F851E10788B079E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -732,20 +1118,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C09688F507CC71E4C1D11863FA7DFDC7 /* Build configuration list for PBXNativeTarget "Pods-Climawatch" */ = {
+		5BE72D5DA3F1E2D81995F65FED9B857F /* Build configuration list for PBXNativeTarget "Pods-Climawatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1DC81D9FA82CB8EBD130E20CB9587714 /* Debug */,
-				A104E7D607F0D5FB4732DC3CB235422A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E6194431A06B948E42F389EFE682EC72 /* Build configuration list for PBXNativeTarget "Pods-Climawatch-ClimawatchUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0C9AC883ED81A1A73FEE336CCB0994DC /* Debug */,
-				2B1697542F2A4937A140EA25F61BE8E0 /* Release */,
+				69B63572775B53076BC0A6C1DEDEE68F /* Debug */,
+				E1AD53D310E91E5BA73D3F0C4DBAE9DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

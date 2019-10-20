@@ -8,14 +8,16 @@
 
 import UIKit
 import CoreLocation
+import NVActivityIndicatorView
 
 
-class MainViewController: UIViewController {
+class MainViewController: UIViewController, NVActivityIndicatorViewable {
     
     @IBOutlet weak var conditionImageView: UIImageView!
     @IBOutlet weak var temperatureLabel: UILabel!
     @IBOutlet weak var cityLabel: UILabel!
     @IBOutlet weak var searchTextField: UITextField!
+    @IBOutlet var indicatorView: UIView!
     
     var weatherDataManager = WeatherData()
     var eventDataMangager = EventManager()
@@ -39,6 +41,7 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Delegates
         searchTextField.delegate = self
         weatherDataManager.delegate = self
         eventDataMangager.delegate = self
@@ -47,13 +50,22 @@ class MainViewController: UIViewController {
         collectionView.dataSource = self
         locationManager.requestWhenInUseAuthorization()
         locationManager.requestLocation()
+        
+        
+        // Loading Spinner
+        indicatorView = NVActivityIndicatorView(frame: self.view.frame, type: .ballBeat)
+        startAnimating()
+        
+        // CollectionView
         view.addSubview(collectionView)
         collectionView.backgroundColor = .clear
-        
         collectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -40).isActive = true
         collectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0).isActive = true
         collectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0).isActive = true
-        collectionView.heightAnchor.constraint(equalToConstant: view.frame.width/1.2).isActive = true
+        collectionView.heightAnchor.constraint(equalToConstant: view.frame.width/1.0).isActive = true
+        
+        
+        
     }
     
     @IBAction func updateLocationTapped(_ sender: Any) {
@@ -122,6 +134,7 @@ extension MainViewController: EventManagerDelegate {
         DispatchQueue.main.async {
             self.fetchedEvents = model
             self.collectionView.reloadData()
+            self.stopAnimating()
         }
     }
     
@@ -142,7 +155,7 @@ extension MainViewController: CLLocationManagerDelegate {
             let lat = location.coordinate.latitude
             weatherDataManager.fetchWeather(longitude: lon, latitude: lat)
             eventDataMangager.fetchEvent(longitude: lon, latitude: lat)
-
+            
         }
     }
     
@@ -156,7 +169,7 @@ extension MainViewController: CLLocationManagerDelegate {
 extension MainViewController: UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
-        return CGSize(width: collectionView.frame.width/2.0, height: collectionView.frame.width/1.3)
+        return CGSize(width: collectionView.frame.width/1.8, height: collectionView.frame.width/1.1)
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         print(self.fetchedEvents.count)
@@ -177,7 +190,7 @@ class CustomCell: UICollectionViewCell {
         didSet {
             guard let data = data else { return }
             title.text = data.title
-            cat.text = data.category
+            eventCategory.text = data.category.capitalizingFirstLetter()
             
             switch data.category {
             case "public-holidays":
@@ -188,6 +201,8 @@ class CustomCell: UICollectionViewCell {
                 return bg.image = #imageLiteral(resourceName: "concert_card")
             case "sports":
                 return bg.image = #imageLiteral(resourceName: "sports_card")
+            case "conferences":
+                return bg.image = #imageLiteral(resourceName: "conference_card")
             case "observances":
                 return bg.image = #imageLiteral(resourceName: "religion_card")
             case "school-holidays":
@@ -195,7 +210,6 @@ class CustomCell: UICollectionViewCell {
             default:
                 return bg.image = #imageLiteral(resourceName: "holiday_card")
             }
-            
             
         }
     }
@@ -207,22 +221,20 @@ class CustomCell: UICollectionViewCell {
         iv.clipsToBounds = true
         iv.lineBreakMode = .byWordWrapping
         iv.numberOfLines = 2
-        iv.textColor = .black
-        iv.font = UIFont(name: "Helvetica", size: 16)
+        iv.font = UIFont(name: "Helvetica", size: 18)
         iv.textColor = UIColor(rgb: 0x353B50)
         return iv
     }()
     
-    fileprivate let cat: UILabel = {
-        let iv = UILabel()
-        iv.translatesAutoresizingMaskIntoConstraints = false
-        iv.clipsToBounds = true
-        iv.lineBreakMode = .byWordWrapping
-        iv.numberOfLines = 2
-        iv.textColor = .black
-        iv.font = UIFont(name: "Helvetica", size: 14)
-        iv.textColor = UIColor(rgb: 0x353B50)
-        return iv
+    fileprivate let eventCategory: UILabel = {
+        let category = UILabel()
+        category.translatesAutoresizingMaskIntoConstraints = false
+        category.clipsToBounds = true
+        category.lineBreakMode = .byWordWrapping
+        category.numberOfLines = 2
+        category.font = UIFont(name: "Helvetica", size: 16)
+        category.textColor = UIColor(rgb: 0x4A90E2)
+        return category
     }()
     
     
@@ -241,20 +253,20 @@ class CustomCell: UICollectionViewCell {
         
         contentView.addSubview(bg)
         contentView.addSubview(title)
-        contentView.addSubview(cat)
+        contentView.addSubview(eventCategory)
         
         bg.topAnchor.constraint(equalTo: contentView.topAnchor).isActive = true
         bg.leftAnchor.constraint(equalTo: contentView.leftAnchor).isActive = true
         bg.rightAnchor.constraint(equalTo: contentView.rightAnchor).isActive = true
         bg.bottomAnchor.constraint(equalTo: contentView.bottomAnchor).isActive = true
         
-        title.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -15).isActive = true
-        title.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 10).isActive = true
-        title.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: 0).isActive = true
+        title.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -20).isActive = true
+        title.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 12).isActive = true
+        title.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -10).isActive = true
         
-        cat.bottomAnchor.constraint(equalTo: title.topAnchor, constant: -5).isActive = true
-        cat.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 10).isActive = true
-        cat.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: 0).isActive = true
+        eventCategory.bottomAnchor.constraint(equalTo: title.topAnchor, constant: -5).isActive = true
+        eventCategory.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 12).isActive = true
+        eventCategory.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: 0).isActive = true
         
     }
     
@@ -278,6 +290,16 @@ extension UIColor {
             green: (rgb >> 8) & 0xFF,
             blue: rgb & 0xFF
         )
+    }
+}
+
+extension String {
+    func capitalizingFirstLetter() -> String {
+        return prefix(1).capitalized + dropFirst()
+    }
+    
+    mutating func capitalizeFirstLetter() {
+        self = self.capitalizingFirstLetter()
     }
 }
 

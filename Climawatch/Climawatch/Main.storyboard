@@ -94,7 +94,19 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0ti-bh-8Fw">
-                                        <rect key="frame" x="134" y="369.5" width="240" height="448.5"/>
+                                        <rect key="frame" x="0.0" y="369.5" width="374" height="448.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="99M-uZ-50B">
+                                                <rect key="frame" x="67" y="160" width="240" height="128"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="99M-uZ-50B" secondAttribute="trailing" constant="67" id="P4y-uo-rbk"/>
+                                            <constraint firstItem="99M-uZ-50B" firstAttribute="top" secondItem="0ti-bh-8Fw" secondAttribute="top" constant="160" id="Pok-bO-3Zy"/>
+                                            <constraint firstItem="99M-uZ-50B" firstAttribute="leading" secondItem="0ti-bh-8Fw" secondAttribute="leading" constant="67" id="gPB-A2-0n4"/>
+                                            <constraint firstAttribute="bottom" secondItem="99M-uZ-50B" secondAttribute="bottom" constant="160.5" id="zUg-D8-A7l"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
@@ -119,13 +131,14 @@
                     <connections>
                         <outlet property="cityLabel" destination="CWP-r8-Jsy" id="8cQ-3l-ufV"/>
                         <outlet property="conditionImageView" destination="mYn-vV-MBC" id="gpD-FU-YB0"/>
+                        <outlet property="indicatorView" destination="99M-uZ-50B" id="Rru-GS-y4G"/>
                         <outlet property="searchTextField" destination="2eh-wL-W34" id="Rp1-Ld-rK2"/>
                         <outlet property="temperatureLabel" destination="w9o-tW-03D" id="mF4-vV-JxK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="118"/>
+            <point key="canvasLocation" x="137.68115942028987" y="117.85714285714285"/>
         </scene>
     </scenes>
     <resources>
