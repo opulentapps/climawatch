@@ -27,10 +27,10 @@ class MainViewController: UIViewController, NVActivityIndicatorViewable {
     
     fileprivate let collectionView:UICollectionView = {
         let layout = UICollectionViewFlowLayout()
-        layout.scrollDirection = .horizontal
-        layout.sectionInset = UIEdgeInsets(top: 0, left: 15, bottom: 0, right: 0)
-        layout.minimumLineSpacing = 15
         let cv = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        layout.scrollDirection = .horizontal
+        layout.sectionInset = UIEdgeInsets(top: 0, left: cv.frame.width + 15, bottom: 0, right: 0)
+        layout.minimumLineSpacing = 15
         cv.translatesAutoresizingMaskIntoConstraints = false
         cv.register(CustomCell.self, forCellWithReuseIdentifier: "cell")
         return cv
@@ -59,12 +59,10 @@ class MainViewController: UIViewController, NVActivityIndicatorViewable {
         // CollectionView
         view.addSubview(collectionView)
         collectionView.backgroundColor = .clear
-        collectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -40).isActive = true
+        collectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -15).isActive = true
         collectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0).isActive = true
         collectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0).isActive = true
-        collectionView.heightAnchor.constraint(equalToConstant: view.frame.width/1.0).isActive = true
-        
-        
+        collectionView.heightAnchor.constraint(equalToConstant: view.frame.height / 2.15).isActive = true
         
     }
     
@@ -169,7 +167,7 @@ extension MainViewController: CLLocationManagerDelegate {
 extension MainViewController: UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
-        return CGSize(width: collectionView.frame.width/1.8, height: collectionView.frame.width/1.1)
+        return CGSize(width: collectionView.frame.width/1.8, height: collectionView.frame.height - 20)
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         print(self.fetchedEvents.count)
