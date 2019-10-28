@@ -50,7 +50,7 @@ class MainViewController: UIViewController, NVActivityIndicatorViewable {
         collectionView.dataSource = self
         locationManager.requestWhenInUseAuthorization()
         locationManager.requestLocation()
-        
+        let height = UIScreen.main.bounds.height
         
         // Loading Spinner
         indicatorView = NVActivityIndicatorView(frame: self.view.frame, type: .ballBeat)
@@ -59,10 +59,15 @@ class MainViewController: UIViewController, NVActivityIndicatorViewable {
         // CollectionView
         view.addSubview(collectionView)
         collectionView.backgroundColor = .clear
-        collectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -15).isActive = true
+        let bgImage = UIImageView();
+        bgImage.image = UIImage(named: "blue_Curve");
+        bgImage.contentMode = .scaleToFill
+        collectionView.showsHorizontalScrollIndicator = false
+        collectionView.backgroundView = bgImage
+        collectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0).isActive = true
         collectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0).isActive = true
         collectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0).isActive = true
-        collectionView.heightAnchor.constraint(equalToConstant: view.frame.height / 2.15).isActive = true
+        collectionView.heightAnchor.constraint(equalToConstant: height / 2.15).isActive = true
         
     }
     
@@ -167,8 +172,24 @@ extension MainViewController: CLLocationManagerDelegate {
 extension MainViewController: UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
-        return CGSize(width: collectionView.frame.width/1.8, height: collectionView.frame.height - 20)
+        if UIDevice().userInterfaceIdiom == .phone {
+            switch UIScreen.main.nativeBounds.height {
+            case 1136:
+                print("iPhone 5 or 5S or 5C")
+                return CGSize(width: collectionView.frame.width/2.0, height: collectionView.frame.height - 50)
+            case 1334:
+                print("iPhone 6/6S/7/8")
+                return CGSize(width: collectionView.frame.width/2.0, height: collectionView.frame.height - 50)
+            case 1920, 2208:
+                print("iPhone 6+/6S+/7+/8+")
+                return CGSize(width: collectionView.frame.width/2.0, height: collectionView.frame.height - 50)
+            default:
+                print("Unknown")
+            }
+        }
+        return CGSize(width: collectionView.frame.width/2.0, height: collectionView.frame.height - 90)
     }
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         print(self.fetchedEvents.count)
         return self.fetchedEvents.count
@@ -177,6 +198,11 @@ extension MainViewController: UICollectionViewDelegateFlowLayout, UICollectionVi
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CustomCell
+        
+        cell.layer.shadowColor = UIColor.black.cgColor
+        cell.layer.shadowOffset = CGSize(width: 0, height: 2.0)
+        cell.layer.shadowRadius = 2.0
+        cell.layer.shadowOpacity = 0.4
         cell.data = self.fetchedEvents[indexPath.item]
         return cell
     }
@@ -219,7 +245,7 @@ class CustomCell: UICollectionViewCell {
         iv.clipsToBounds = true
         iv.lineBreakMode = .byWordWrapping
         iv.numberOfLines = 2
-        iv.font = UIFont(name: "Helvetica", size: 18)
+        iv.font = UIFont(name: "Helvetica", size: 16)
         iv.textColor = UIColor(rgb: 0x353B50)
         return iv
     }()
@@ -230,7 +256,7 @@ class CustomCell: UICollectionViewCell {
         category.clipsToBounds = true
         category.lineBreakMode = .byWordWrapping
         category.numberOfLines = 2
-        category.font = UIFont(name: "Helvetica", size: 16)
+        category.font = UIFont(name: "Helvetica", size: 14)
         category.textColor = UIColor(rgb: 0x4A90E2)
         return category
     }()
@@ -241,7 +267,7 @@ class CustomCell: UICollectionViewCell {
         iv.translatesAutoresizingMaskIntoConstraints = false
         iv.contentMode = .scaleAspectFill
         iv.clipsToBounds = true
-        iv.layer.cornerRadius = 12
+        iv.layer.cornerRadius = 10
         iv.backgroundColor = .white
         return iv
     }()

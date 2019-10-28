@@ -6,6 +6,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Light.ttf">
+            <string>Montserrat-Light</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
@@ -17,25 +22,30 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_bg" translatesAutoresizingMaskIntoConstraints="NO" id="zIi-4O-4HE">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_light" translatesAutoresizingMaskIntoConstraints="NO" id="PNW-ua-yKI">
-                                <rect key="frame" x="82" y="203" width="250" height="25"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="25" id="0eS-bk-GQh"/>
-                                    <constraint firstAttribute="width" constant="250" id="YJd-AY-32r"/>
+                                    <constraint firstAttribute="width" constant="414" id="oFd-2b-6mT"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CLIMAWATCH" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="htv-Bc-y0h">
+                                <rect key="frame" x="55" y="229" width="305" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="305" id="6jE-h2-w3S"/>
+                                    <constraint firstAttribute="height" constant="44" id="RTY-Nf-EpO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat Light" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.27843137254901962" green="0.56470588235294117" blue="0.88627450980392153" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PNW-ua-yKI" secondAttribute="trailing" constant="82" id="42R-FM-jXa"/>
                             <constraint firstItem="zIi-4O-4HE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6bp-0k-hMk"/>
                             <constraint firstAttribute="bottom" secondItem="zIi-4O-4HE" secondAttribute="bottom" id="9Qd-84-vef"/>
                             <constraint firstItem="zIi-4O-4HE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="BaJ-KX-fJe"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PNW-ua-yKI" secondAttribute="bottom" constant="634" id="NsM-tA-F2n"/>
                             <constraint firstItem="zIi-4O-4HE" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="OtB-c0-f3x"/>
-                            <constraint firstItem="PNW-ua-yKI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="82" id="UIm-ga-OnV"/>
-                            <constraint firstItem="PNW-ua-yKI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="159" id="fl7-9P-ydJ"/>
+                            <constraint firstItem="htv-Bc-y0h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="55" id="g4S-a6-lNt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="htv-Bc-y0h" secondAttribute="trailing" constant="54" id="js1-iS-jCe"/>
+                            <constraint firstItem="htv-Bc-y0h" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="185" id="yCP-Md-AeH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -46,7 +56,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo_light" width="500" height="52"/>
         <image name="splash_bg" width="750" height="1624"/>
     </resources>
 </document>
